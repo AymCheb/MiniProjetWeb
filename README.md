@@ -24,5 +24,4 @@ Mini-Projet Web. Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfell
     — Fiabilité : il faut garantir l’efficacité de système.
     — Ergonomie des interfaces : notre système doit fournir des interfaces homme-machine facile a utiliser et efficaces.
     — La portabilit ́e de l’application : il est important d’avoir une application portable pouvant ˆetre exploit ́ee par plusieurs plates-formes.
-    — La maintenance : dans le d ́eveloppement des diff ́erents modules de cette application, il faut tenir compte de la possibilit ́e de son extension par l’ajout de nouvelles fonctionnalit ́es. Ces modules doivent ˆetre aussi bien document ́es afin de faciliter la
-maintenance de l’application.
+    — La maintenance : dans le d ́eveloppement des diff ́erents modules de cette application, il faut tenir compte de la possibilit ́e de son extension par l’ajout de nouvelles fonctionnalit ́es. Ces modules doivent ˆetre aussi bien document ́es afin de faciliter la maintenance de l’application.
