@@ -1,7 +1,7 @@
 Mini-Projet Web
 # Gerer les Produits d'un restaurant.
 
-Mini-Projet Web. Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfelli
+Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfelli
 
 
 
