@@ -3,15 +3,10 @@ Mini-Projet Web
 
 Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfelli
 
-Notre projet concerne l'administrateur et son contrôle sur le restaurant, en particulier les produits. il s'agit principalement de consulter les produits, d'en ajouter de nouveaux, de modifier les existants et de supprimer quoi que ce soit à volonté.
-
 
 ## Spécification des besoins fonctionnels:
 
-    Dans cette section, nous procedons a une etape de specification des besoins fonctionnels de notre systeme.
-    Ces besoins seront modelises a travers une etude detaillee de ses fonctionnalites.
-    En fait, les besoins fonctionnels servent a mieux comprendre le role de systeme en question ainsi que ses fonctionnalites essentielles.
-    En effet, notre systeme devra repondre aux besoins fonctionnels suivants :
+    Notre projet concerne l'administrateur et son contrôle sur le restaurant, en particulier les produits. il s'agit principalement de consulter les produits, d'en ajouter de nouveaux, de modifier les existants et de supprimer quoi que ce soit à volonté.
 
 ## Exigences système pour l’administrateur: 
     -(a) Consultation: Consulter le menu.
