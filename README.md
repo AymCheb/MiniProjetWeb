@@ -1,5 +1,8 @@
-# Mini-Projet Web
-Mini-Projet Web. Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfelli
+Mini-Projet Web
+# Gerer les Produits d'un restaurant.
+
+Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfelli
+
 
 
 ## Spécification des besoins fonctionnels:
@@ -10,12 +13,11 @@ Mini-Projet Web. Elaboré par: Aymen Chebli | Belhassen Hashous | Ramez Ouerfell
     En effet, notre systeme devra repondre aux besoins fonctionnels suivants :
 
 ## Exigences système pour l’administrateur: 
-    -(a) Consultation: Consulter les commandes des clients.
-                       Consulter la liste des clients.
-    -(b) Ajouter     : Ajouter un nouveau produit au menu.
-    -(c) Supprimer   : Supprimer un nouveau produit au menu.
-                       Supprimer un compte des clients.
-    -(d) Modifier    : Modifier un nouveau produit au menu.
+    -(a) Consultation: Consulter le menu.
+                       Consulter les produit.
+    -(b) Ajouter     : Ajouter un produit.
+    -(c) Supprimer   : Supprimer un produit.
+    -(d) Modifier    : Modifier un produit.
     
 
 ## Spécification des besoins non fonctionnels:
