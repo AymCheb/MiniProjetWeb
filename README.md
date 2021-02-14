@@ -12,7 +12,7 @@ Cette phase consiste principalement à comprendre le fonctionnement du système.
     
 
 ## Exigences système pour l’administrateur: 
-    -(a) Consulter: Consulter le menu.
+    -(a) Consulter   : Consulter le menu.
                        Consulter les produit.
     -(b) Ajouter     : Ajouter un produit.
     -(c) Supprimer   : Supprimer un produit.
