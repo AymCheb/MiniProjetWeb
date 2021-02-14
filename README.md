@@ -12,7 +12,7 @@ Cette phase consiste principalement à comprendre le fonctionnement du système.
     
 
 ## Exigences système pour l’administrateur: 
-   -(a) Consulter: Consulter le menu.
+    -(a) Consulter: Consulter le menu.
                        Consulter les produit.
     -(b) Ajouter     : Ajouter un produit.
     -(c) Supprimer   : Supprimer un produit.
@@ -21,7 +21,7 @@ Cette phase consiste principalement à comprendre le fonctionnement du système.
 
 ## Spécification des besoins non fonctionnels:
 
-   — Securité : presentée au niveau de la base de donn ́ees. Certains données sont confidentielles et il faut r ́esoudre le problème d’accès a la base que pour les utilisateurs legitimes.
+    — Securité : presentée au niveau de la base de donn ́ees. Certains données sont confidentielles et il faut r ́esoudre le problème d’accès a la base que pour les utilisateurs legitimes.
     — Fiabilité : il faut garantir l’efficacité de système.
     — Ergonomie des interfaces : notre système doit fournir des interfaces homme-machine facile a utiliser et efficaces.
     — La portabilit ́e de l’application : il est important d’avoir une application portable pouvant ˆetre exploit ́ee par plusieurs plates-formes.
