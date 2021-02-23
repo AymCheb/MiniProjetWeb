@@ -1,14 +1,14 @@
 # Gestion des Produits d'un restaurant.
 
 ## Index:
-* [Identification des acteurs](#)
-* [Specification des besoins](#Specification-des-besoins)  
-  * [Les besoins fonctionnels](#A---Les-besoins-fonctionnels)
-  * [Les besoins non fonctionnels](#B---Les-besoins-non-fonctionnels)
+* [Identification des acteurs](#identification-des-acteurs)
+* [Specification des besoins](#spécification-des-besoins)  
+  * [Les besoins fonctionnels](#spécification-des-besoins-fonctionnels)
+  * [Les besoins non fonctionnels](#spécification-des-besoins-non-fonctionnels)
 * [Modélisation des besoins fonctionnels](#Modélisation-des-besoins-fonctionnels)
-  * [diagramme de cas d’utilisation](#fig1)
+  * [diagramme de cas d’utilisation](#diagramme-de-cas-dutilisation)
 * [Modélisation dynamique](#Modélisation-dynamique)
-  * [Diagram de séquence ](#fig2)
+  * [Diagram de séquence ](#diagramme-de-sequence)
 
 # Identification des acteurs:
 G
@@ -33,7 +33,7 @@ Cette phase consiste principalement à comprendre le fonctionnement du système.
     — La maintenance : dans le d ́eveloppement des diff ́erents modules de cette application, il faut tenir compte de la possibilit ́e de son extension par l’ajout de nouvelles fonctionnalit ́es. Ces modules doivent ˆetre aussi bien document ́es afin de faciliter la maintenance de l’application.
 
 # Modélisation des besoins fonctionnels:
-Diagramme de cas d'utilisation:
+## Diagramme de cas d'utilisation:
 
 # Modélisation dynamique:
-Diagramme de séquence:
+## Diagramme de séquence:
