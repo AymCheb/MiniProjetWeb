@@ -38,4 +38,4 @@ Cette phase consiste principalement à comprendre le fonctionnement du système.
 
 # Modélisation dynamique:
 ## Diagramme de séquence:
-![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/spec/Diagramme-de-Sequence.png?raw=true)
+![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/spec/Diagramme%20de%20Sequence.png?raw=true)
