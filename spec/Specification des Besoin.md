@@ -4,14 +4,14 @@
 * [Identification des acteurs](#identification-des-acteurs)
 * [Specification des besoins](#spécification-des-besoins)  
   * [Les besoins fonctionnels](#spécification-des-besoins-fonctionnels)
-  * [Les besoins non fonctionnels](#spécification-des-besoins-non-fonctionnels)
+  * [Les besoins non fonctionnels](#specification-des-besoins-non-fonctionnels)
 * [Modélisation des besoins fonctionnels](#Modélisation-des-besoins-fonctionnels)
   * [diagramme de cas d’utilisation](#diagramme-de-cas-dutilisation)
 * [Modélisation dynamique](#Modélisation-dynamique)
   * [Diagram de séquence ](#diagramme-de-sequence)
 
 # Identification des acteurs:
-G
+Afin d'identifier les interactions entre le système et le monde extérieur, nous commençons par identifier les acteurs à travers une modélisation des exigences de chaque acteur. Dans ce cas, il n'y a qu'un seul acteur, L'**administrateur**.
 
 # Spécification des besoins:
 Cette phase consiste principalement à comprendre le fonctionnement du système. Il s'agit de déterminer les fonctionnalités et les principaux acteurs, mais aussi d'évoquer les différents critiques et d'identifier les différents cas d'utilisation initiaux.
