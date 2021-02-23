@@ -34,6 +34,8 @@ Cette phase consiste principalement à comprendre le fonctionnement du système.
 
 # Modélisation des besoins fonctionnels:
 ## Diagramme de cas d'utilisation:
+![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/spec/Diagramme%20Cas%20d%27utilisation.png?raw=true)
 
 # Modélisation dynamique:
 ## Diagramme de séquence:
+![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/spec/Diagramme-de-Sequence.png?raw=true)
