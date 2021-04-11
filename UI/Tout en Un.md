@@ -14,7 +14,7 @@
 ![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/UI/Consulter.png?raw=true)
 
 # Page d'ajout:
-![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/UI/Ajouter.png?raw=true)
+![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/UI/Ajout.png?raw=true)
 
 # Page de modification & suppression:
 ![alt text](https://github.com/AymCheb/MiniProjetWeb/blob/main/UI/Modifer_supprimer.png?raw=true)
