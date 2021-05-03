@@ -21,24 +21,24 @@ USE `mydb` ;
 -- Table `mydb`.`Produit`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`Produit` (
-  `idProduit` INT NOT NULL,
-  `nomProduit` VARCHAR(45) NOT NULL,
-  `typeProduit` VARCHAR(45) NOT NULL,
-  `prixProduit` DECIMAL(10,2) NOT NULL,
-  `descProduit` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`idProduit`))
+  `id` INT(11) NOT NULL,
+  `nom` VARCHAR(30) NOT NULL,
+  `descrip` text NOT NULL,
+  `img` longblob NOT NULL,
+  `prix` INT(11) NOT NULL,
+  PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Client`
+-- Table `mydb`.`User`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Client` (
-  `idClient` INT NOT NULL,
-  `nomClient` VARCHAR(45) NOT NULL,
-  `prenomClient` VARCHAR(45) NOT NULL,
-  `adresseClient` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`idClient`))
+CREATE TABLE IF NOT EXISTS `mydb`.`User` (
+  `id` INT(11) NOT NULL,
+  `role VARCHAR(30) NOT NULL,
+  `nom` VARCHAR(30) NOT NULL,
+  `mdp` VARCHAR(30) NOT NULL,
+  PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
 
@@ -46,18 +46,18 @@ ENGINE = InnoDB;
 -- Table `mydb`.`Commande`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`Commande` (
-  `Client_idClient` INT NOT NULL,
+  `User_idUser` INT NOT NULL,
   `Produit_idProduit` INT NOT NULL,
   `PrixTotal` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`Client_idClient`, `Produit_idProduit`),
-  INDEX `fk_Client_has_Produit_Produit1_idx` (`Produit_idProduit` ASC) VISIBLE,
-  INDEX `fk_Client_has_Produit_Client_idx` (`Client_idClient` ASC) VISIBLE,
-  CONSTRAINT `fk_Client_has_Produit_Client`
-    FOREIGN KEY (`Client_idClient`)
-    REFERENCES `mydb`.`Client` (`idClient`)
+  PRIMARY KEY (`User_idUser`, `Produit_idProduit`),
+  INDEX `fk_User_has_Produit_Produit1_idx` (`Produit_idProduit` ASC) VISIBLE,
+  INDEX `fk_User_has_Produit_User_idx` (`User_idUser` ASC) VISIBLE,
+  CONSTRAINT `fk_User_has_Produit_User`
+    FOREIGN KEY (`User_idUser`)
+    REFERENCES `mydb`.`User` (`idUser`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Client_has_Produit_Produit1`
+  CONSTRAINT `fk_User_has_Produit_Produit1`
     FOREIGN KEY (`Produit_idProduit`)
     REFERENCES `mydb`.`Produit` (`idProduit`)
     ON DELETE NO ACTION
