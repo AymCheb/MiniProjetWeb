@@ -1,0 +1,55 @@
+<!--<section class="menu section bd-container" id="menu">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Menu</h1>
+        <p class="lead">Voir les différents produits du menu et gérez-les en cliquant sur modifier ou supprimer.</p>
+      </div>
+<div class="row">
+    <div class="col-md-3 col-sm-6" *ngFor ="let rep of menu" [rep]="item">
+        <div class="product-grid">
+            <div class="id_grabber" #id>{{rep.id}}</div>
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="{{rep.img}}">
+                </a>
+                <ul class="product-links">
+                    <li><a (click)="Modifier(id)"><i class="fa fa-shopping-bag"></i>Modifier</a></li>
+                    <li><a (click)="Supprimer(id)"><i class="fa fa-search"></i>Supprimer</a></li>
+                </ul>
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">{{rep.nom}}</a></h3>
+                <h1 class="description">{{rep.descrip}}</h1>
+                <div class="price">{{rep.prix}} DT</div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<div class="container-fluid padding">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Menu</h1>
+        <p class="lead">Voir les différents produits du menu et gérez-les en cliquant sur modifier ou supprimer.</p>
+    </div>
+</div>
+  <!--- Cards -->
+  <div class="product-container" *ngFor ="let rep of menu" [rep]="item">
+  <div class="container">
+    <div class="row">
+    <div class="id_grabber" #id>{{rep.id}}</div>
+      <div class="col-lg-8 card-spacer">
+        <div class="card-dark carditem">
+          <img class="card-img-top" src="{{rep.img}}" alt="">
+          <div class="card-body">
+            <h4 class="card-title" >{{rep.nom}}</h4>
+            <p class="card-text" >{{rep.descrip}}</p>
+            <p class="card-text" >{{rep.prix}} DT</p>
+            <a (click)="Modifier(id)" class="btn btn-outline-secondary btn-outline-light btnspacing">Modifier</a>
+            <a (click)="Supprimer(id)" class="btn btn-outline-secondary btn-outline-light">Supprimer</a>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+  

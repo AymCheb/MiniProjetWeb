@@ -1,0 +1,36 @@
+<section class="section ajouterproduit" id="ajouter">
+    <div class="container ajouter">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Ajouter un plat</h1>
+            <p class="lead">Ajouter un nouveau plat à la base de données en remplissant les entrées nécessaires.</p>
+          </div>
+        <form>
+            <div class="row">
+                <div class="col-xl-6 col-md-6">
+                    <label for="name_dish">Image</label><br>
+                    <input type="file" (change) = onSelectfile($event)>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div>
+                        <label for="name_dish">Nom du plat</label><br>
+                        <input type="text" id="nom">
+                    </div>
+                    <div>
+                        <label for="prix_plat">Prix du plat</label><br>
+                        <input type="text" id="prix">
+                    </div>
+                    <div>
+                        <label for="des_plat">Description du plat</label><br>
+                        <textarea name="" id="descrip" cols=30 rows="2"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-9 col-md-3">
+                    <button type="button" class="btn btn-danger" (click)="Ajouter()">Ajouter</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</section>
